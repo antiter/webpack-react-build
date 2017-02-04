@@ -3,7 +3,8 @@ webpack-react-build
 第一步，
 # npm install -g webpack
 第二步
-修改package.json,增加如下的依赖
+修改package.json,增加如下的依赖。
+```
 "dependencies": {
     "css-loader": "^0.25.0",
     "extract-text-webpack-plugin": "^1.0.1",
@@ -21,7 +22,7 @@ webpack-react-build
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.15.1"
   }
-  
+```
 第三步
 # npm install
 
@@ -32,7 +33,7 @@ webpack-react-build
 根目录新增webpack配置文件：
 
 webpack.config.js：
-
+```
 dist_path = "public";//打包之后的目录
 source_path={
     path:"src",//源代码目录
@@ -57,5 +58,5 @@ extract_js_path = "common";
 
 //提取目标目录
 extract_js_distpath = "common";
-
+```
 module.exports = require('webpack-react-build');
