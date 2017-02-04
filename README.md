@@ -3,7 +3,7 @@ webpack-react-build
 第一步，
 # npm install -g webpack
 第二步
-修改package.json
+修改package.json,增加如下的依赖
 "dependencies": {
     "css-loader": "^0.25.0",
     "extract-text-webpack-plugin": "^1.0.1",
