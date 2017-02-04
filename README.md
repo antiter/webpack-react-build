@@ -27,7 +27,7 @@ webpack-react-build
 # npm install
 
 第四步
-# npm i webpack-react-build
+# npm install webpack-react-build
 
 第五步
 根目录新增webpack配置文件：
