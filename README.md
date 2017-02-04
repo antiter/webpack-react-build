@@ -21,6 +21,7 @@ webpack-react-build
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.15.1"
   }
+  
 第三步
 # npm install
 
