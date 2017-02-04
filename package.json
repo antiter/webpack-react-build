@@ -1,0 +1,17 @@
+{
+  "name": "webpack-react-build",
+  "version": "0.0.1",
+  "description": "webpack react build",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://source.jd.com/app/webpackdemo.git"
+  },
+  "author": "antit",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
